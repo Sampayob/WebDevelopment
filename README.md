@@ -1,3 +1,3 @@
 # WebDevelopment
 
-## This is a repo with all my web development projects
+This is a repo with all my web development projects
