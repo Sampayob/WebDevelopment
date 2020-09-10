@@ -4,7 +4,6 @@ body {
   color: #3a484a;
   font-size: 1.3rem;
   font-family: 'Work Sans', sans-serif;
-
 }
 
 h1{
@@ -34,6 +33,11 @@ hr {
   margin-bottom: 6%;
 }
 
+a{
+  color:#66BFBF;
+  margin: 10px 20px;
+  text-decoration: none;
+}
 
 /*******************************Class Selectors***********************/
 .br {
@@ -42,7 +46,12 @@ hr {
 }
 
 .contact {
-  margin-left: 42%;
+  margin-left: -8px;
+  margin-right: -12px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #c3e3e3;
 }
 
 .first_column{
