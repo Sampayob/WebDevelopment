@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap example Website</title>
+
+    <!-- Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets-->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Font awesome-->
+
+    <script src="https://kit.fontawesome.com/e922b15679.js" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap Scripts-->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e922b15679.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -42,7 +56,7 @@
       <!-- Title -->
         <div class="row">
           <div class="col-lg-4">
-            <h1>Create awesome websites with just a few clicks</h1>
+            <h1 class = "big-heading">Create awesome websites with just a few clicks</h1>
             <button type="button" class = "btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
             <button type="button" class = "btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
           </div>
@@ -51,41 +65,42 @@
     </section>
 
     <!-- Features-->
-    <section id = "features">
+    <section id = "features" class = "white-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class = "feature-title">Easy to use.</h3>
+            <p>Don't need any web development knowledge.</p>
+          </div>
 
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-4x"></i>
-        <h3>Easy to use.</h3>
-        <p>Don't need any web development knowledge.</p>
-      </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-user-tie fa-4x""></i>
+            <h3 class = "feature-title">Profesional results</h3>
+            <p>Complete operative website with profesional-like code.</p>
+          </div>
 
-      <div class="feature-box col-lg-4">
-        <i class="icon fas fa-user-tie fa-4x""></i>
-        <h3>Profesional results</h3>
-        <p>Complete operative website with profesional-like code.</p>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-life-ring fa-4x""></i>
+            <h3 class = "feature-title">Guaranteed support.</h3>
+            <p>Relax. You can count with our help.</p>
+          </div>
+        </div>
       </div>
-
-      <div class="feature-box col-lg-4">
-        <i class="icon fas fa-life-ring fa-4x""></i>
-        <h3>Guaranteed support.</h3>
-        <p>Relax. You can count with our help.</p>
-      </div>
-    </div>
     </section>
 
     <!-- Testimonies-->
-    <section id = "testimonies">
+    <section id = "testimonies" class = "colored-section">
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>"The website is just perfect. I downloaded the app and in 5 minutes I have my personal website fully opperative."</h2>
+          <div class="carousel-item active container-fluid">
+            <h2 class = "testimonial-text">"The website is just perfect. I downloaded the app and in 5 minutes I have my personal website fully opperative."</h2>
             <img src="images/John-Doe.jpg" alt="john-profile" class = "testimonial-image">
             <em>John Doe, Chicago</em>
           </div>
-          <div class="carousel-item">
-            <h2>"I am impressed. Never thought I can make my own website so easy so fast."</h2>
+          <div class="carousel-item container-fluid"">
+            <h2 class = "testimonial-text">"I am impressed. Never thought I can make my own website so easy so fast."</h2>
             <img src="images/Ana-Lopez.jpg" alt="Ana-profile" class = "testimonial-image">
             <em>Ana López, Madrid</em>
           </div>
@@ -103,79 +118,82 @@
     </section>
 
     <!-- Pricing-->
-    <section id = "pricing">
-      <h2>Choose a Plan</h2>
-      <p>Start to create your personal website</p>
+    <section id = "pricing" class = "white-section">
+      <div class="container-fluid">
 
-      <div class="row">
+        <h2 class = "section-heading">Choose a Plan</h2>
+        <p>Start to create your personal website</p>
 
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Personal</h3>
+        <div class="row">
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h2 class = "price-title">Personal</h2>
+            </div>
+            <div class="card-body">
+              <h2 class = "price-text">10€ / mo</h2>
+              <p>Basic and stylish website</p>
+              <p>Modificable</p>
+              <p>Constant support</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
           </div>
-          <div class="card-body">
-            <h2>10€ / mo</h2>
-            <p>Basic and stylish website</p>
-            <p>Modificable</p>
-            <p>Constant support</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h2 class = "price-title">Professional</h2>
+            </div>
+            <div class="card-body">
+              <h2 class = "price-text">20€ / mo</h2>
+              <p>Complete professional website</p>
+              <p>Modificable, integrated functions</p>
+              <p>Constant support</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h2 class = "price-title">Company</h2>
+            </div>
+            <div class="card-body">
+              <h2>50€ / mo</h2>
+              <p>All the Professional options (now scalable)</p>
+              <p>User system and integrated functions</p>
+              <p>High security</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Professional</h3>
-          </div>
-          <div class="card-body">
-            <h2>20€ / mo</h2>
-            <p>Complete professional website</p>
-            <p>Modificable, integrated functions</p>
-            <p>Constant support</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Company</h3>
-          </div>
-          <div class="card-body">
-            <h2>50€ / mo</h2>
-            <p>All the Professional options (now scalable)</p>
-            <p>User system and integrated functions</p>
-            <p>High security</p>
-            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-
     </section>
 
     <!-- CTA-->
-    <section id = "cta">
-
-      <h3 class = "cta-heading">Make your website right now</h3>
-      <button type="button" class = "btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-      <button type="button" class = "btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-
+    <section id = "cta" class = "colored-section">
+      <div class="container-fluid">
+        <h3 class = "cta-heading">Make your website right now</h3>
+        <button type="button" class = "btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class = "btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+      </div>
     </section>
 
     <!-- Footer-->
 
-    <footer id = "footer">
-      <i class="social-icon fab fa-facebook-f"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-      <p>Ⓒ Copyright 2020 ClickWeb</p>
+    <footer id = "footer" class = "white-section">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>Ⓒ Copyright 2020 ClickWeb</p>
+      </div>
     </footer>
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
   </body>
 
 </html>
