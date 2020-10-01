@@ -18,4 +18,4 @@ This is a repo with all my web development projects.
 
 ## Node/Express
 
-- [Aperture Laboratories Newsletterp: example of a functional newsletter made with front-end HTML,CSS,Bootstrap and Express back-end](https://aperture-lab-newsletter.herokuapp.com/)
+- [Aperture Laboratories Newsletterp: example of a functional newsletter made with front-end HTML,CSS,Bootstrap and back-end Express with Mailchimp API and Heroku web app deployment](https://aperture-lab-newsletter.herokuapp.com/)
