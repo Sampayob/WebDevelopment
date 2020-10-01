@@ -18,4 +18,4 @@ This is a repo with all my web development projects.
 
 ## Node/Express
 
-- [Newsletter Sign up: example of a functional newsletter made with front-end HTML,CSS,Bootstrap and Express back-end]()
+- [Newsletter Sign up: example of a functional newsletter made with front-end HTML,CSS,Bootstrap and Express back-end](https://aperture-lab-newsletter.herokuapp.com/)
