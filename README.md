@@ -12,7 +12,7 @@ This is a repo with all my web development projects.
 
 ## Bootstrap 4
 
-- [ClickWeb: app website](https://github.com/Sampayob/WebDevelopment/tree/master/Bootstrap)
+- [ClickWeb: app website example](https://sampayob.github.io/ClickWeb/)
 
 - [Sergio Sampayo: professional website](https://sampayob.github.io/sampayob-website/)
 
